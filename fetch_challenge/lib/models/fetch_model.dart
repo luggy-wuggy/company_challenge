@@ -1,3 +1,7 @@
+/// Fetch model \n
+/// int id : the id of the object;
+/// int listId: the grouping id (1-4);
+/// String name: "Item $id";
 class Fetch {
   int id;
   int listId;
@@ -5,6 +9,7 @@ class Fetch {
 
   Fetch({this.id, this.listId, this.name});
 
+  /// Maps json into objects of Fetch
   Fetch.fromJson(Map<String, dynamic> json) {
     id = json['id'];
     listId = json['listId'];
