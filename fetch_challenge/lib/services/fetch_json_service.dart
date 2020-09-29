@@ -1,6 +1,7 @@
 import 'dart:convert';
-import 'package:fetch_challenge/models/fetch_model.dart';
 import 'package:http/http.dart' as http;
+
+import '../models/fetch_model.dart';
 
 /// This is an asynchronous function that retrieves json from AWS S3 link
 /// and maps and converts into a list of Fetch object

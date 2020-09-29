@@ -1,10 +1,13 @@
-import 'package:fetch_challenge/widgets/card_list.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../providers/home_screen_provider.dart';
 import '../widgets/fetch_button.dart';
+import '../widgets/card_list.dart';
 
+/// HomeScreen displays the home screen of the app.
+/// A simple app bar and a button that fetches data
+/// from AWS S3 link and then displays the list of object[Fetch]
 class HomeScreen extends StatelessWidget {
   final String _title = 'My List';
 

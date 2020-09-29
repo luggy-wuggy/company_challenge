@@ -1,4 +1,3 @@
-/// Fetch model \n
 /// int id : the id of the object;
 /// int listId: the grouping id (1-4);
 /// String name: "Item $id";

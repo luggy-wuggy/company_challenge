@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:fetch_challenge/models/fetch_model.dart';
-import 'package:fetch_challenge/services/fetch_json_service.dart'
-    as jsonService;
+import '../models/fetch_model.dart';
+import '../services/fetch_json_service.dart' as jsonService;
 
 /// A provider model that contains data that can be accessed in any parts of the HomeScreen and it's widgets.
 class HomeScreenProvider extends ChangeNotifier {

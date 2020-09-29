@@ -1,8 +1,8 @@
-import 'package:fetch_challenge/providers/home_screen_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'screens/home_screen.dart';
+import 'providers/home_screen_provider.dart';
 
 void main() {
   runApp(MyApp());
