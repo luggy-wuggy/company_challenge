@@ -1,15 +1,24 @@
-# fetch_challenge
+# Fetch Rewards Exercise
 
-A new Flutter project.
+![alt text](https://github.com/luggy-wuggy/company_challenge/blob/master/fetch_1.png?raw=true)
+![alt text](https://github.com/luggy-wuggy/company_challenge/blob/master/fetch_2.png?raw=true)
+
+This is a Flutter project, meaning it can run on both iOS or android. This also means that you need to have Flutter/Dart installed on your computer in order to run the app. 
+
+The packages I used is the http and provider libraries.
+The http is simply to GET the json data from the link.
+The provider is a state management pattern used to make UI renders more efficient and to have accessible data for different states. 
 
 ## Getting Started
+* Start by installing Flutter/Dart and a compatible IDE (I recommend VSCode)
+* Clone the following project into your system and open it through a Flutter compatible IDE
+* Upon opening, there will be a ton of errors for missing packages/libraries. But don't worry.
+* Run "flutter packages get" into the the terminal inside the project and let the IDE do it's job.
+* Eventually the errors will resolve itself. (hopefully lol, it worked on my test)
+* Open a mobile simulator, iOS or android.
+      (My method is by running "flutter emulators --launch ios" [for mac only] in the terminal)
+* Once your IDE detects a mobile simulator (if you are using VSCode, there's a label on the bottom right corner), you can launch the application (if you are using VSCode, you can either launch it through Debugging mode or running "flutter run" in terminal)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
