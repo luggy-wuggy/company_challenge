@@ -15,7 +15,7 @@ class CardList extends StatelessWidget {
         if (snapshot.data == null) {
           return Center(
             child: CircularProgressIndicator(
-              backgroundColor: Colors.amber[200],
+              backgroundColor: Colors.amber[400],
             ),
           );
           // Display a list of cards once we've fetched all the data
