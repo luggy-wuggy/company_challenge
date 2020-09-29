@@ -8,10 +8,10 @@ This is a Flutter project, meaning it can run on both iOS or android. This also 
 The packages I used is the http and provider libraries.
 The http is simply to GET the json data from the link.
 The provider is a state management pattern used to make UI renders more efficient and to have accessible data for different states. 
-Everything else is pure Flutter/Dart
+Everything else is pure Flutter/Dart.
 
 
-If you want to look at the codebase, it is under the lib folder
+If you want to look at the codebase, it is under the lib folder.
 
 ## Getting Started
 * Start by installing Flutter/Dart and a compatible IDE (I recommend VSCode)
