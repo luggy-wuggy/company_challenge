@@ -17,7 +17,7 @@ struct ContentView: View {
             List(fetch.fetchModels) { fetchModels in
                 HStack() {
                     Text("\(fetchModels.listId)")
-                    Text("\(fetchModels.name ?? "null")") // print boolean
+                    Text("\(fetchModels.name!)") // print boolean
                         .font(.system(size: 15))
                         .foregroundColor(Color.gray)
                 }
