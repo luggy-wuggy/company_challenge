@@ -1,7 +1,7 @@
 # Fetch Rewards Exercise
 
-![alt text](https://github.com/luggy-wuggy/company_challenge/blob/master/fetch_1_ios.png?raw=true)
-![alt text](https://github.com/luggy-wuggy/company_challenge/blob/master/fetch_2_ios.png?raw=true)
+![alt text](https://github.com/luggy-wuggy/company_challenge/blob/master/fetch_ios_1.png?raw=true)
+![alt text](https://github.com/luggy-wuggy/company_challenge/blob/master/fetch_ios_2.png?raw=true)
 
 I must admit, it's been awhile since I've coded in Swift so I was a bit rusty on syntax structure and architecture. But once I got my groove and looked at some documentation, it was like riding a bike, a bit wobbly but stable. XCode(Swift) was actually my first mobile framwork I learned, but as of lately I have gotten into the Flutter framework and let me tell you..... it's magical. I can tell you more about it! It's truly amazing, and deserves it's recognization.
 
