@@ -1,7 +1,7 @@
 # Fetch Rewards Exercise
 
-![alt text](https://github.com/luggy-wuggy/company_challenge/blob/master/fetch_1.png?raw=true)
-![alt text](https://github.com/luggy-wuggy/company_challenge/blob/master/fetch_2.png?raw=true)
+![alt text](https://github.com/luggy-wuggy/company_challenge/blob/master/fetch_1_flutter.png?raw=true)
+![alt text](https://github.com/luggy-wuggy/company_challenge/blob/master/fetch_2_flutter.png?raw=true)
 
 This is a Flutter project, meaning it can run on both iOS or android. This also means that you need to have Flutter/Dart installed on your computer in order to run the app. 
 

@@ -1,29 +1,18 @@
 # Fetch Rewards Exercise
 
-![alt text](https://github.com/luggy-wuggy/company_challenge/blob/master/fetch_1.png?raw=true)
-![alt text](https://github.com/luggy-wuggy/company_challenge/blob/master/fetch_2.png?raw=true)
+![alt text](https://github.com/luggy-wuggy/company_challenge/blob/master/fetch_1_ios.png?raw=true)
+![alt text](https://github.com/luggy-wuggy/company_challenge/blob/master/fetch_2_ios.png?raw=true)
 
-This is a Flutter project, meaning it can run on both iOS or android. This also means that you need to have Flutter/Dart installed on your computer in order to run the app. 
-
-The packages I used is the http and provider libraries.
-The http is simply to GET the json data from the link.
-The provider is a state management pattern used to make UI renders more efficient and to have accessible data for different states. 
-Everything else is pure Flutter/Dart.
+I must admit, it's been awhile since I've coded in Swift so I was a bit rusty on syntax structure and architecture. But once I got my groove and looked at some documentation, it was like riding a bike, a bit wobbly but stable. XCode(Swift) was actually my first mobile framwork I learned, but as of lately I have gotten into the Flutter framework and let me tell you..... it's magical. I can tell you more about it! It's truly amazing, and deserves it's recognization.
 
 
-If you want to look at the codebase, it is under the lib folder.
+However, working on this iOS exercise made me realize that I cannot progress as a developer if I am in a comfortable state. I became pigeonholed into Flutter and got too comfortable at it, to the point where I lost basis with my iOS dev. So, honest to god, thank you for clarifying to write in native code. It's inspired me to continue on learning/growth in iOS dev. Native code will never go away haha. However, this does not at all disdain my love for Flutter. I truly truly believe Flutter will be such an important framework in the future, and will be used in many ways (mobile app, web app, web) and all sorts of companies(start-up, mid-size, Big Five).
 
-## Getting Started
-* Start by installing Flutter/Dart and a compatible IDE (I recommend VSCode).
-* Clone the following project into your system and open it through a Flutter compatible IDE.
-* Upon opening, there will be a ton of errors for missing packages/libraries. But don't worry.
-* Run "flutter packages get" into the the terminal inside the project and let the IDE do it's job.
-* Eventually the errors will resolve itself.
-* Open a mobile simulator, iOS or android
-      (My method is by running "flutter emulators --launch ios" [for mac only] in the terminal).
-* Once your IDE detects a mobile simulator (if you are using VSCode, there's a label on the bottom right corner), you can launch the application (if you are using VSCode, you can either launch it through Debugging mode or running "flutter run" in terminal).
+Here are some articles of Flutter used by esteemed companies:
+
+[https://tech.ebayinc.com/product/ebay-motors-accelerating-with-fluttertm/](https://tech.ebayinc.com/product/ebay-motors-accelerating-with-fluttertm/)
+
+[https://medium.com/oyindonesia/flutter-at-oy-indonesia-the-motivation-42e8c085002f](https://medium.com/oyindonesia/flutter-at-oy-indonesia-the-motivation-42e8c085002f)
 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
