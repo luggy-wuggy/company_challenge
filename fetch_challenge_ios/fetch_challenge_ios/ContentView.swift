@@ -13,20 +13,28 @@ struct ContentView: View {
     @ObservedObject var fetch = FetchJSON()
     
        var body: some View {
-        NavigationView{
-            List(fetch.fetchModels) { fetchModels in
-                HStack() {
-                    Text("\(fetchModels.listId)")
-                    Text("\(fetchModels.name!)") // print boolean
-                        .font(.system(size: 15))
-                        .foregroundColor(Color.gray)
-                }
-            }.navigationBarTitle(Text("Fetch Rewards List"))
+            NavigationView{
+                
+                List(){
+                    ForEach(self.fetch.getListIdBound(), id: \.self){ index in
+                        Section(header: Text("\(index)")){
+                            
+                            // Grouping each contents of section by the range of the listIdBound [1...MAX(listId)]
+                            ForEach(self.fetch.fetchModels.filter{$0.listId == index}){ fetchModel in
+                                Text(fetchModel.name!)
+                            }
+                            
+                        }
+                    }
+                }.navigationBarTitle("Fetch Rewards List")
+            }
+        
         }
-       }
-}
+    }
+
 
 struct ContentView_Previews: PreviewProvider {
+    
     static var previews: some View {
         ContentView()
     }
